@@ -17,7 +17,7 @@ function Head(props) {
     return (
         <div>
             <Layout fixedHeader>
-                <Header title={<span styles={`font-family: Raleway !important`}>Search Music</span>}>
+                <Header title={<span styles={`font-family: Raleway !important`}>Talk To Music</span>}>
                 </Header>
                 <Drawer title="">
                     <SideMenu />
