@@ -1,0 +1,5 @@
+.progress{
+    height: 5px !important;
+    color: red !important;
+    width: 100% !important;
+}

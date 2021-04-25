@@ -1,0 +1,8 @@
+.modal{
+    z-index: 9;
+    background-color: rgba(210, 210, 210, .075) !important;
+}
+
+.height{
+    height: 55px !important;
+}
