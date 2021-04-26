@@ -8,3 +8,7 @@ body {
 code {
   font-family: 'Raleway', sans-serif !important;
 }
+
+a {
+  color: black;
+}

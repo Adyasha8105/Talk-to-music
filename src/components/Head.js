@@ -5,19 +5,15 @@ import Search from './Search';
 import Cards from './Cards';
 import Modal from 'react-modal'
 import Lyrics from './Lyrics';
-import './Head.css';
+import styles from './Head.css';
 import {Animated} from "react-animated-css";
-const customStyles = {
-    content : {
-      backgroundColor: 'rgba(90, 90, 90, .95)'
-    }
-  };
+
 Modal.defaultStyles.overlay.zIndex = 9
 function Head(props) {
     return (
         <div>
             <Layout fixedHeader>
-                <Header title={<span styles={`font-family: Raleway !important`}>Talk To Music</span>}>
+                <Header className={styles.header} title={<span >Talk to Music</span>}>
                 </Header>
                 <Drawer title="">
                     <SideMenu />
@@ -28,7 +24,7 @@ function Head(props) {
                     <Modal
                         isOpen={props.modal}
                         onRequestClose={props.closeModal}
-                        style={customStyles}
+                        style={styles.content}
                         contentLabel="Example Modal" >
                             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                             <Lyrics closeModal={props.closeModal} data={props.song} className="modal"/>

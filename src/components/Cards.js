@@ -1,5 +1,5 @@
 import React from 'react'
-import './Cards.css'
+import styles from './Cards.css'
 function Cards(props) {
     let res = props.data;
     function millisToMinutesAndSeconds(millis) {

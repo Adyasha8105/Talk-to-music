@@ -6,3 +6,12 @@
 .height{
     height: 55px !important;
 }
+
+.content {
+    backgroundColor: rgba(90, 90, 90, .95);
+}
+
+.header {
+    font-family: Raleway !important;
+    background-color: black !important;
+}
