@@ -1,0 +1,195 @@
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+hr {
+    width: 30%;
+    margin: auto;
+}
+.black {
+    color: black;
+}
+a, a:active, a:visited {
+    text-decoration: unset;
+    transition: .5s;
+    color: rgba(30, 30, 210, 0.93);
+}
+a:hover {
+    text-decoration: unset;
+    color: rgba(150, 15, 240, 0.93);
+}
+#fab-hover {
+    width: 54px;
+    height: 54px;
+}
+.dark {
+    background-color: #010101;
+}
+.full {
+    min-height: 69vh;
+}
+.footer-text{
+    font-weight: bold;
+    color: rgb(180, 180, 180) !important;
+    transition: .3s;
+}
+.footer-text:hover{
+    color: rgb(0, 0, 0) !important;
+}
+.small-img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+.title {
+    font-size: 1.5em;
+}
+.avatar {
+    border-radius: 50%;
+    display: inline-block;
+    background-size: contain;
+}
+.depth {
+    box-shadow: 0px 16px 24px 2px rgba(2, 2, 2, 0.15), 0px 6px 30px 5px rgba(0,0,0,0.15), 0px 8px 10px -5px rgba(0,0,0,0.15);
+}
+.foot-link {
+    color: rgba(0, 0, 0, 0.75) !important;
+    transition-duration: .5s;
+}
+.foot-link:hover {
+    color: rgba(210, 210, 210, 0.75) !important;
+}
+.magic-text {
+    color: rgba(255, 255, 255, 0.99);
+    font-size: 2em;
+}
+.nav-item {
+    font-size: 1.25em;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-span {
+    display: block;
+}
+.nav-item:hover {
+    box-shadow: 0px 16px 24px 2px rgba(0,0,0,0.18), 0px 6px 30px 5px rgba(0,0,0,0.18), 0px 8px 10px -5px rgba(0,0,0,0.18);
+    transition: .2s;
+    transform: scale(1.002);
+}
+.navbg {
+    /* background-image: url('../../assets/images/navbg.png'); */
+    background-size: cover;
+}
+.navbg-dark {
+    background-color: #111;
+}
+::-webkit-scrollbar {
+}
+.bg {
+    /* background-image: url('../../assets/images/bg2.jpg'); */
+    background-size: cover;
+    position: fixed;
+    z-index: -999;
+    width: 100%;
+    min-height: 150%;
+}
+.mt-large {
+    margin-top: 120px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+.avatar {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ced4da no-repeat center/cover;
+  position: relative;
+  text-align: center;
+  color: #868e96;
+  font-weight: 600;
+  vertical-align: bottom;
+  font-size: .875em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.avatar-xxl {
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  font-size: 2em;
+  border: solid 5px rgba(120, 120, 120, 0.95);
+  background-color: rgba(255, 255, 255, 0.075);
+}
+.remove-decoration, .remove-decoration:hover {
+    text-decoration: none;
+}
+.blink {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.fab-container {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 99;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-decoration: none;
+}
+.divfab{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.fab-secondary {
+    margin-bottom: 17px;
+}
+.fab-toggler {
+    float: right;
+    z-index: 100;
+}
+.bounce {
+    animation-iteration-count: 3;
+}
+
+@media (min-width:320px)  {
+    .mt-large {
+        margin-top: 50px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+@media (min-width:480px)  {
+    .mt-large {
+        margin-top: 50px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+@media (min-width:600px)  {
+    .mt-large {
+        margin-top: 70px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+}
+@media (min-width:801px) {
+    .mt-large {
+        margin-top: 70px !important;
+        margin-left: 35px !important;
+        margin-right: 35px !important;
+    }
+}
+@media (min-width:1025px) {
+    .mt-large {
+        margin-top: 120px !important;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+    }
+}
