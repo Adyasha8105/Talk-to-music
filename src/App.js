@@ -18,7 +18,7 @@ class App extends React.Component {
       })
       axios.post(`https://itunes.apple.com/search?term=${props.replace(" ", "+")}`).then(res => {
         // console.log(res.data.results);
-        res.data.results.map((x, index) => {x._id = index+1})
+        res.data.results.map((x, index) => (x._id = index+1))
         console.log(res.data)
         this.setState({
           data : res.data.results,
