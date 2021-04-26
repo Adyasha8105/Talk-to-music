@@ -26,7 +26,7 @@ Note: Facing some issues with Lyrics API but soon gonna solve it :)
 
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps. If you like it, show some love by giving it a ⭐
 
-- Clone the repo ```git clone https://github.com/heytulsiprasad/wirescript.git```
+- Clone the repo ```git clone https://github.com/Adyasha8105/Talk-to-music.git```
 - Just do ```npm install``` inside cloned project.
 - Open terminal inside project folder and cd to ```./``` folder.
 - Run ```npm start``` your server will be up and running & it will open the appliation.
